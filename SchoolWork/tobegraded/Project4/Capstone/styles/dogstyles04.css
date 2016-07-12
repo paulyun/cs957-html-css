@@ -1,0 +1,20 @@
+.floatleft {
+    float: left;
+    margin-right:0 2% 2% 0;
+}
+
+.floatright {
+        float:right;
+        margin-left: 0 0 2% 2%;
+}
+
+.clear-float
+    {
+        clear: both;
+    }
+    
+#page-wrapper
+    {
+        width: 70%;
+        margin: 0 auto; /* 0 top and bottom, auto left and right */
+    }

@@ -1,0 +1,119 @@
+/* Style sheet created by: Paul Yun, 3/14/2016 */
+
+/* Style for body specifies a background color */
+body {
+    background-color: #FFFF99;
+}
+
+/* Style for container centers the page and sets the element width */
+#container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for header specifies top and bottom marins, background color, rounded border, shadow, and alignment */
+header {
+    margin-top: 0.2em;
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+/* Style for nav specifies text properties, padding, margins, and borders */
+nav {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style specifies padding and margin for unordered list */
+
+nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+nav li {
+    background-color: #009933;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+}
+
+nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.mobile {
+    display:inline;
+}
+
+.desktop {
+    display: none;
+}
+
+.tablet {
+    display: none;
+}
+
+.equip {
+    display: none;
+}
+
+/* Style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
+main {
+    display: block;
+    font-family:Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #FFFFFF;
+    border-top: solid 0.2em #009933;
+    border-bottom:  solid 0.2em #009933;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.equip {
+    float: left;
+    padding-right: 20px;
+}
+
+ul {
+    margin-bottom: 50px;
+    list-style-position: inside;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    padding-bottom: 20px;
+}
+
+/*style to create a fluid image*/
+img {
+    max-width: 100%;
+}
+
+/*style for mobile layout*/
+
+/*style for the container centers the page and specifies the width*/
+
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
